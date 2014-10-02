@@ -381,6 +381,7 @@
 		5A254D7D19DD71F60055F770 /* TwWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A254D2819DD71F60055F770 /* TwWord.png */; };
 		5A254D7E19DD71F60055F770 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A254D2919DD71F60055F770 /* upload.png */; };
 		5A254D7F19DD71FB0055F770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A254D8119DD71FB0055F770 /* InfoPlist.strings */; };
+		5A254D8719DD730C0055F770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A254D8519DD730C0055F770 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1092,6 +1093,10 @@
 		5A254D2819DD71F60055F770 /* TwWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwWord.png; path = Resources/TwWord.png; sourceTree = "<group>"; };
 		5A254D2919DD71F60055F770 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upload.png; path = Resources/upload.png; sourceTree = "<group>"; };
 		5A254D8019DD71FB0055F770 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A254D8219DD72F20055F770 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5A254D8319DD72F60055F770 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5A254D8619DD730C0055F770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5A254D8819DD73120055F770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1162,6 +1167,7 @@
 		5A25490919DD6EC20055F770 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A254D8419DD730C0055F770 /* Base.lproj */,
 				5A254CD519DD71F50055F770 /* ActorsLines.plist */,
 				5A254CD619DD71F50055F770 /* ActorsLines.pvr.ccz */,
 				5A254CD719DD71F50055F770 /* BGM.mp3 */,
@@ -2405,6 +2411,15 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		5A254D8419DD730C0055F770 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5A254D8519DD730C0055F770 /* InfoPlist.strings */,
+			);
+			name = Base.lproj;
+			path = Resources/Base.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2444,6 +2459,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				"zh-Hant",
+				Base,
 			);
 			mainGroup = 5A2548EC19DD6EC20055F770;
 			productRefGroup = 5A2548F619DD6EC20055F770 /* Products */;
@@ -2529,6 +2547,7 @@
 				5A25491D19DD6EC20055F770 /* Icon@2x.png in Resources */,
 				5A254D3819DD71F60055F770 /* GameShareObject.pvr.ccz in Resources */,
 				5A254D3E19DD71F60055F770 /* HB0026SE0501.mp3 in Resources */,
+				5A254D8719DD730C0055F770 /* InfoPlist.strings in Resources */,
 				5A254D6B19DD71F60055F770 /* S5Game1.plist in Resources */,
 				5A254D5C19DD71F60055F770 /* p_Read0005C.png in Resources */,
 				5A254B2519DD6EC50055F770 /* project.pbxproj in Resources */,
@@ -2844,9 +2863,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A254D8019DD71FB0055F770 /* en */,
+				5A254D8219DD72F20055F770 /* zh-Hans */,
+				5A254D8319DD72F60055F770 /* zh-Hant */,
+				5A254D8819DD73120055F770 /* Base */,
 			);
 			name = InfoPlist.strings;
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A254D8519DD730C0055F770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A254D8619DD730C0055F770 /* Base */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
