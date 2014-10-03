@@ -23,7 +23,7 @@
 #endif
 
 #define ANDROID_LONG_SOUND_ID 9999
-#define CLASS_NAME "tw/com/b_a/GAME035/GAME035"
+#define CLASS_NAME "tw/com/b_a/GAME039/GAME039"
 
 using namespace cocos2d;
 

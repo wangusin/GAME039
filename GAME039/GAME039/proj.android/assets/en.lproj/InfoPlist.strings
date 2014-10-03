@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  100Game
+ 
+*/
+
+"CFBundleDisplayName" = "Fun Dissolve";
+"CFBundleName" = "Fun Dissolve";
+"LanguageInit" = "2";

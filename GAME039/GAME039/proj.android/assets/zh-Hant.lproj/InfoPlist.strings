@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  100Game
+ 
+*/
+
+"CFBundleDisplayName" = "有趣的溶解";
+"CFBundleName" = "有趣的溶解";
+"LanguageInit" = "0";

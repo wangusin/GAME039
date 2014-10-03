@@ -29,6 +29,10 @@ bool StartScene::init()
     {
         return false;
     }
+    
+    SimpleAudioEngine::sharedEngine()->preloadEffect(CCString::createWithFormat(S5_QUESTION_OS, "T")->getCString());
+    SimpleAudioEngine::sharedEngine()->preloadEffect(CCString::createWithFormat(S5_QUESTION_OS, "E")->getCString());
+    
     CCUserDefault *dataRecord = CCUserDefault::sharedUserDefault();
 	CCTexture2D::setDefaultAlphaPixelFormat(kCCTexture2DPixelFormat_RGBA4444);
     CCTexture2D::PVRImagesHavePremultipliedAlpha(true);

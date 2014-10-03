@@ -917,6 +917,10 @@ void Scene5::showTheQuestion()
     if (questionIndex == 0)
     {
         questionOSId = SimpleAudioEngine::sharedEngine()->playEffect(CCString::createWithFormat(S5_QUESTION_OS, languageName)->getCString(), false);
+        
+        SimpleAudioEngine::sharedEngine()->stopEffect(questionOSId);
+        
+        questionOSId = SimpleAudioEngine::sharedEngine()->playEffect(CCString::createWithFormat(S5_QUESTION_OS, languageName)->getCString(), false);
     }
 }
 
